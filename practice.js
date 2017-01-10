@@ -70,7 +70,8 @@ var getYear = function(){
 //Above you're given the getYear function. Using your prius and mustang objects from above, use the proper syntax that will allow for you to call the getYear function with the prius then the mustang objects being the focal objects. *Don't add getYear as a property on both objects*.
 
 //Note(no tests)
-  //Code Here
+  var priusYear = getYear.bind(prius)();
+  var mustangYear = getYear.bind(mustang)();
 
 
 //New Problem
